@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+screenshots/
+
+# Node
+node_modules/
+package-lock.json
+
+# Dados sensíveis
+config_local.json
+
+# Temporários
+*.tmp
+*.bak
+.DS_Store

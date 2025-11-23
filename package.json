@@ -1,0 +1,14 @@
+{
+  "name": "roleta-bot",
+  "version": "1.0.0",
+  "description": "Bot de automação de apostas na roleta",
+  "main": "roleta_matadora.js",
+  "scripts": {
+    "analisar": "node roleta_matadora.js analisar",
+    "atualizar": "node roleta_matadora.js atualizar"
+  },
+  "keywords": ["roleta", "bot", "apostas"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}

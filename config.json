@@ -1,0 +1,22 @@
+{
+  "credenciais": {
+    "email": "ejeujdjdbdbdhd@gmail.com",
+    "senha": "2mBdDe@9@Pw7DSc"
+  },
+  "apostas": {
+    "valor_base": 1.0,
+    "multiplicador_alta_confianca": 2.0,
+    "confianca_minima_principal": 60,
+    "confianca_minima_reserva": 50
+  },
+  "navegador": {
+    "headless": false,
+    "timeout": 20,
+    "aguardar_resultado": 60
+  },
+  "estrategia": {
+    "usar_martingale": false,
+    "max_tentativas_martingale": 3,
+    "historico_minimo": 10
+  }
+}
