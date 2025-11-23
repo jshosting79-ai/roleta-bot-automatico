@@ -65,7 +65,6 @@ class RoletaBotFinal:
         chrome_options.add_argument('--window-size=1920,1080')
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--disable-gpu')
-        chrome_options.binary_location = '/usr/bin/google-chrome' # Tentativa final com o binário padrão do Codespace
         
         service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=chrome_options)
