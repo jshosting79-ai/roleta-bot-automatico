@@ -15,6 +15,7 @@ import os
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -65,7 +66,7 @@ class RoletaBotFinal:
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--disable-gpu')
         
-        service = Service(executable_path='/usr/bin/chromedriver')
+        service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=chrome_options)
         self.wait = WebDriverWait(self.driver, 20)
         self.driver.maximize_window()
